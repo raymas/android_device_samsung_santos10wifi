@@ -15,6 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/full_santos10wifi.mk \
-     $(LOCAL_DIR)/aosp_santos10wifi.mk
+     $(LOCAL_DIR)/lineage_santos10wifi.mk
+
+COMMON_LUNCH_CHOICES :=  \
+    lineage_santos10wifi-userdebug
 
